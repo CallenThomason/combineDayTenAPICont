@@ -31,3 +31,4 @@ C:\Users\calle\OneDrive\Desktop\CSA Combine\lecture\combineDayTenAPICont\obj\Deb
 C:\Users\calle\OneDrive\Desktop\CSA Combine\lecture\combineDayTenAPICont\obj\Debug\net10.0\combineDayTenAPICont.pdb
 C:\Users\calle\OneDrive\Desktop\CSA Combine\lecture\combineDayTenAPICont\obj\Debug\net10.0\combineDayTenAPICont.genruntimeconfig.cache
 C:\Users\calle\OneDrive\Desktop\CSA Combine\lecture\combineDayTenAPICont\obj\Debug\net10.0\ref\combineDayTenAPICont.dll
+C:\Users\calle\OneDrive\Desktop\CSA Combine\lecture\combineDayTenAPICont\obj\Debug\net10.0\combineDayTenAPICont.sourcelink.json

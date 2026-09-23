@@ -45,9 +45,53 @@ Used to *Delete Existing Data*
 # Status Codes
 
  ## 200 Status Code 
+ 
  means your request is good - success
+(ok)
+ ## 201 Status Code
+
+ This means that creation was successful. 
+ (Used for CreateAtAction)
+
+ ## 204 Status Code
+
+ Simply states that the request was successful with nothing to return. 
+ (NoContent)
 
  ## 400 Status Code 
  
  means a bad request - failure
  Something went wrong with the request
+(BadRequest)
+ ## 404 Status Code
+
+ Not Found means whatever user expected was there, was not there
+(NotFound)
+
+
+ //-------------------------------------//
+
+ ## Day 3 Services, Interfaces, and Dependancy Injection
+
+ # Controller is our waiter - Takes orders (request methods)
+
+ # Interface is our Menu - Tells us what our kitchen has
+
+ # Service is our kitchen - Makes the food (Implements our logic)
+
+ # Dependency Injection is our Manager - Everything runs smoothly (connects everything)
+
+ ### Services
+
+ This layer of our application is where our Logic Resides. (We access our Database from this layer only)
+
+ ### Interface
+
+ This is a contract or list of promises that our services must implement (There is no logic here)
+
+ ### Dependancy Injection
+
+ We inject our services into the controller using our constuctor
+ We must add our services and interface to our program.cs
+ when we implement our interface it will pass on the responsibility to our services
+

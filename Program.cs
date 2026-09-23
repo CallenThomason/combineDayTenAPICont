@@ -1,3 +1,5 @@
+using combineDayTenAPICont.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+//AddScoped
+//we are registering our services within our app making them accessable.
+//Whenever we Acess our ICargoServices Interface It knows to pass it to our Cargo Services
+builder.Services.AddScoped<ICargoServices, CargoServices>(); //
 
 var app = builder.Build();
 
